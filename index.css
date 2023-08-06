@@ -1,0 +1,8 @@
+body {
+    width: 100%;
+    background-image: url(Choco-Lava.jpg);
+    background-color: rgb(43, 41, 41);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}

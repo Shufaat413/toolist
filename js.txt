@@ -1,0 +1,36 @@
+opp
+ > inheritance   =>
+ > polymorphism  => overloading , overriding, 
+ > abstraction   => 
+ > encapsulation =>  
+
+Gloval variable => var"name"
+local variable  => let"name"
+
+normal function => function "name"(){}
+arrow function  => const name = () => {}
+anonymous function => () => {}
+(() => {}) () => imagete execution function 
+ ===============================Condition statements And Loops====================
+ Conditions   =>   if, else, ifelse & Switch
+if () {
+    
+}
+else if (){
+
+}
+else {
+
+}
+switch(){
+    case 1:
+        break;
+    case 2:
+        break;
+}
+for(){
+
+}
+comparison operators
+==    => value
+===   => value + type

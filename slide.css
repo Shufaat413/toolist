@@ -1,0 +1,53 @@
+
+.slider-container {
+    position: relative;
+    overflow: hidden;
+    width: 800px;
+    margin-left: 250px;
+  }
+  
+  .slider-wrapper {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .slider-card {
+    flex: 0 0 100%;
+    text-align: center;
+    width: 400px;
+    height: 500px;
+    background-color: gray;
+  }
+  
+  .slider-card img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: solid 2px blueviolet;
+  }
+  
+  .slider-controls {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .slider-controls button {
+    background-color: transparent;
+    border: none;
+    color: #000;
+    cursor: pointer;
+    font-size: 24px;
+    margin: 0 10px;
+    outline: none;
+  }
+  
+  .slider-controls button:hover {
+    color: #555;
+  }
+  
+  .slider-controls button:active {
+    transform: translateY(1px);
+  }
+  

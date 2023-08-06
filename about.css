@@ -1,0 +1,38 @@
+ body {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+ }
+ .new {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: rgb(2, 61, 80);
+    position: relative;
+    transition: all 1s;
+ }
+ .new::before  {
+    content: "";
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+    left: 160px;
+    top: -20px;
+    z-index: -2;
+    border-radius: 10px;
+ }
+ .new::after  {
+    content: "";
+    width: 60px;
+    height: 60px;
+    background-color: green;
+    position: absolute;
+    top: 160px;
+    left: -20px;
+    z-index: -2;
+    border-radius: 10px;
+ }
+
+

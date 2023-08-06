@@ -1,0 +1,532 @@
+body {
+    height: 100%;
+    background-color: lightgrey;
+    margin: 0px;
+    padding: 0%;
+    display: flex;
+    flex-direction: row;
+}
+nav {
+    width: 25%;
+    height: 625px;
+    margin: 0%;
+    background-color: white;
+    border-right: 2px solid rgb(216, 220, 220);
+    position: sticky;
+    top: 0px;
+}
+nav > a {
+    display: none;
+}
+.logo {
+    height: 120px;
+    border-bottom: 2px solid rgb(228, 225, 225);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo > h3 {
+    margin: 0%;
+    font-size: 25px;
+    color: rgb(93, 89, 89);
+}
+.logo > h3 i {
+    color: red;
+}
+.logo > p {
+    margin: 0%;
+    padding: 0%;
+    word-spacing: 12px;
+    letter-spacing: 4px;
+}
+.navs {
+    height: 503px;
+    display: flex;
+    flex-direction: column;
+}
+.navs > a {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    color: black;
+    transition: all .5s;
+}
+.navs > a:nth-child(7) {
+    margin-top: 183px;
+}
+.navs > a > i {
+    margin-right: 20px;
+    margin-left: 100px;
+}
+.navs > a:hover {
+    background:linear-gradient(to left, rgb(192, 192, 21), rgb(190, 69, 17));
+    color: white;
+}
+section {
+    width: 74.5%;
+    margin: 0%;
+}
+.div {
+    margin: 0%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.part {
+    margin: 0%;
+    width: 33.3%;
+    height: 70px;
+    position: relative;
+}
+.part > input {
+    margin-top: 30px;
+    margin-left: 10px;
+    height: 35px;
+    width: 330px;
+    border: none;
+    border-radius: 18px;
+    text-align: center;
+}
+.part > i {
+    position: absolute;
+    left: 20px;
+    top: 38px;
+}
+.part > i:hover {
+    color: blue;
+}
+#part2 {
+    display: flex;
+    border-right: 1px solid rgb(228, 227, 227);
+    justify-content: space-evenly;
+}
+#part2 > i {
+    position: relative;
+    color: rgb(85, 81, 81);
+}
+#part2 > i:hover {
+    color: blue;
+}
+#part3 > img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+#part3 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#part3 > a {
+    text-decoration: none;
+    color: rgb(85, 81, 81);
+}
+#part3 > a {
+    text-decoration: none;
+    color: rgb(85, 81, 81);
+}
+#part3 > a:hover {
+    color: blue;
+}
+
+
+#sec-2 {
+    justify-content: space-evenly;
+    height: 100px;
+    align-items: center;
+}
+.section {
+    width: 160px;
+    height: 60px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 1s;
+}
+.section:hover {
+    box-shadow: 10px 0px 10px 0px rgb(92, 90, 90);
+    transform: scale(1.05);
+}
+.section > i {
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgba(23, 195, 172, 0.566);
+    border-radius: 10px;
+    color: blue;
+}
+.section:nth-child(2) > i {
+    background-color: rgb(228, 218, 157);
+    color: rgb(164, 144, 30);
+}
+.section:nth-child(3) > i {
+    background-color: rgba(168, 62, 238, 0.51);
+    color: rgb(15, 73, 136);
+}
+.section:nth-child(4) > i {
+    background-color: rgba(101, 231, 179, 0.51);
+    color: rgb(53, 120, 236);
+}
+.section:nth-child(5) > i {
+    background-color: rgba(248, 231, 42, 0.378);
+    color: rgb(156, 135, 15);
+}
+#sec-3 {
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    display: flex;
+    gap: 20px;
+}
+#sec-3 > button {
+    border: none;
+    background-color: rgb(70, 15, 147);
+    color: white;
+    padding: 10px 60px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    transition: all 1s;
+    cursor: pointer;
+}
+#sec-3 > button:first-child {
+    margin-left: 230px;
+}
+
+#sec-3 > button:hover {
+    background-color: blue;
+}
+#sec-4 {
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.div-part {
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.div-part >p {
+    margin: 0%;
+    font-size: 15px;
+    padding: 10px 30px;
+    background-color: white;
+    transform: translateX(25px);
+}
+.div-part a {
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    padding: 10px 30px;
+    background-color: white;
+    transition: all 1s;
+}
+.div-part a:hover {
+    background-color: rgb(135, 11, 144);
+    color: white;
+}
+.div-part a i {
+    padding-right: 10px;
+}
+.div-part > a {
+    transform: translateX(400px);
+}
+.div-part2 {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    color: rgb(188, 20, 73);
+}
+.new-sect:first-child {
+    width: 150px;
+    height: 200px;
+    margin-left: 20px;
+    border-radius: 15px;
+    background-image: url(back-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.new-sect:nth-child(2) {
+    width: 300px;
+    height: 200px;
+    background-image: url(back-5.jpg);
+    background-position: center;  
+    background-repeat: no-repeat;
+    background-size: cover;      
+    margin-left: 20px;
+    border-radius: 15px;
+}
+.new-sect:nth-child(3) {
+    width: 160px;
+    height: 200px;
+    background-image: url(back-3.jpg);
+    background-position: center;  
+    background-repeat: no-repeat;
+    background-size: cover;  
+    margin-left: 20px;
+    border-radius: 15px;
+}
+.new-sect:nth-child(4) {
+    width: 155px;
+    height: 200px;
+    background-image: url(back-4.jpg);
+    background-position: center;  
+    background-repeat: no-repeat;
+    background-size: cover;  
+    margin-left: 20px;
+    border-radius: 15px;
+    margin-left: 20px;
+    border-radius: 15px;
+}
+.new-sect {
+    transition: all 1s;
+}
+.div-part2 a {
+    text-decoration: none;
+    float: left;
+    margin-top: 170px;
+}
+.new-sect:hover {
+    box-shadow: 0px 10px 10px 0px black;
+}
+
+
+#sec-5 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+}
+.table {
+    width: 60%;
+    height: 300px;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.filter {
+    width: 95%;
+    height: 45px;
+    background-color: rgb(172, 169, 169);
+    border-radius: 8px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.filter > input {
+    border: none;
+    width: 280px;
+    height: 33px;
+    margin-left: 8px;
+    border-radius: 8px;
+    text-align: center;
+}
+.filter a > i {
+    position: absolute;
+    left: 15px;
+    font-size: 18px;
+    bottom: 13px;
+}
+.filter > button {
+    border: none;
+    margin-right: 12px;
+    padding: 10px 30px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.filter > button > i {
+    padding-right: 10px;
+}
+
+.table-sec {
+    width: 95%;
+    height: auto;
+}
+.table-sec > table {
+    background-color: white;
+    margin-top: 10px;
+    padding: 0%;
+    border-radius: 15px;
+    border: none;
+}
+.table-sec > table tr th {
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    background-color: rgb(116, 199, 199);
+}
+.table-sec > table tr th:first-child {
+    border-top-left-radius: 15px;
+}
+.table-sec > table tr th:last-child {
+    border-top-right-radius: 15px;
+}
+.table-sec > table  tr td {
+    padding-left: 20px;
+    height: 28px;
+}
+.table-sec > table  tr td:first-child{
+    background-color: rgb(116, 199, 199);
+}
+.table-sec > table  tr:last-child td:first-child{
+    border-bottom-left-radius: 15px;
+}
+.table-sec > table  tr td i {
+    font-size: 12px;
+    margin-right: 5px;
+}
+.table-sec > table  tr td img {
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    margin-right: 5px;
+}
+
+.graph {
+    width: 40%;
+    height: 300px;
+}
+.circle {
+    width: 80%;
+    height: 220px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+    position: relative;
+}
+.circle a {
+    float: left;
+    margin-top: 15px;
+    padding: 1px 10px;
+    text-decoration: none;
+}
+.circle a:nth-child(2) {
+    font-size: 18px;
+    margin-left: 150px;
+}
+
+
+.progress-bar {
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    border-top: 15px solid rgb(78, 185, 29);
+    border-bottom: 15px solid white;
+    border-left: 15px solid rgb(28, 52, 110);
+    border-right: 15px solid grey;
+    position: relative;
+    top: 50px;
+}
+.bar1 {
+    width: 140px;
+    height: 140px;
+    border-top: 15px solid rgba(78, 185, 29, 0);
+    border-bottom: 15px solid red;
+    border-left: 15px solid rgba(28, 53, 110, 0);
+    border-right: 15px solid green;
+    position: absolute;
+    border-radius: 50%;
+    left: -15px;
+    top: -15px;
+    transform: rotate(45deg);
+}
+
+.bar-colors {
+    width: 95px;
+    height: 150px;
+    border: 1px solid rgb(223, 220, 220);
+    position: absolute;
+    top: 63px;
+    left: 225px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.color span {
+    position: relative;
+    left: 25px;
+    font-size: 12px;
+}
+.color:first-child {
+    width: 19px;
+    height: 19px;
+    background-color: red;
+    display: block;
+    margin-left: 3px;
+    margin-top: 5px;
+}
+.color:nth-child(2) {
+    width: 19px;
+    height: 19px;
+    background-color: rgb(28, 52, 110);
+    display: block;
+    margin-left: 3px;
+}
+.color:nth-child(3) {
+    width: 19px;
+    height: 19px;
+    background-color: green;
+    display: block;
+    margin-left: 3px;
+}
+.color:nth-child(4) {
+    width: 19px;
+    height: 19px;
+    background-color: rgb(78, 185, 29);
+    display: block;
+    margin-left: 3px;
+}
+.color:last-child {
+    width: 19px;
+    height: 19px;
+    background-color: gray;
+    display: block;
+    margin-left: 3px;
+}
+
+.walets {
+    width: 82%;
+    height: 66px;
+    border: 2px solid rgb(186, 185, 185);
+    margin: 0%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.walt-prts {
+    width: 40%;
+    height: 65px;
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.walt-prts p:first-child {
+    font-weight: bold;
+}
+.walt-prts p {
+    margin: 0%;
+    padding: 0%;
+    font-size: 13px;
+    color: black;
+}
+.walt-prts a {
+    text-decoration: none;
+    font-size: 10px;
+}
