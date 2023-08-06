@@ -1,0 +1,9 @@
+terminal commonds:)
+    1. cd change directory
+    2.mkdir make directory
+    3. rmdir delete directory
+    4. vim
+    5. rm  delete file
+    6. rm -f delete forcefully file
+    7. :q!
+    8. 
